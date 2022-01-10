@@ -1,0 +1,22 @@
+.Info{
+    border: 2px solid #AEE1E1;
+    border-radius: 12px;
+    background-color: #ECE2E1;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.Info>h1{
+     text-align: center;
+     margin: 8px;
+}
+
+.Info>h2{
+    text-align: center;
+    margin: 4px;
+}
+
+.Info>h3{
+    text-align: center;
+    margin: 3px;
+}

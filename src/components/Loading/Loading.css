@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.AllLoading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 350px;
+    border: 2px solid pink;
+    border-radius: 12px;
+
+}
+
+.AllLoading > p{
+    color:rgb(226, 55, 198);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Loader {
+    /*position: relative;*/
+    width: 120px;
+    height: 120px;
+    margin-left: 35%;
+    margin-top: 100px;
+    border: solid 8px transparent;
+    border-top-color: rgb(65, 157, 160);
+    border-left-color: rgb(226, 55, 198);
+    border-radius: 50%;
+    animation: Loader 1.5s linear infinite;
+}
+
+@keyframes Loader{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);    
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg);    
+    }
+}
